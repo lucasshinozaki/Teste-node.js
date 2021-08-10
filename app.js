@@ -4,8 +4,8 @@ const handlebars = require('express-handlebars')
 const bodyParser = require('body-parser')
 const Post = require('./models/Post')
 
-
-// CONFIGURAÇÕES
+// TESTE GITHUB
+// CONFIGURAÇÕES 
     //TEMPLATE ENGINE
         app.engine('handlebars', handlebars({defaultLayout: 'main'}))
         app.set('view engine', 'handleabars')
